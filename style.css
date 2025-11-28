@@ -11,7 +11,7 @@ body {
 
 /* bagian pembukaan */
 .pembukaan {
-    background-image: url(/img/image\ copy\ 7.png);
+    background-image: url(img/image-copy\ 7.png);
     padding: 150px 20px;
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -19,7 +19,6 @@ body {
 
 .kata-1 {
     font-size: 100px;
-
 }
 
 .bg-blue {
@@ -101,14 +100,12 @@ body {
 }
 
 .kontainer2 {
-    background-image: url(/img/image\ copy\ 7.png);
+    background-image: url(img/image-copy\ 7.png);
     margin: 140px;
     margin-top: 80px;
     display: flex;
     align-items: center;
-    box-shadow: 10px 10px 10px
-        /* blur */
-        rgba(78, 78, 78, 0.523);
+    box-shadow: 10px 10px 10px rgba(78, 78, 78, 0.523);
     gap: 50px;
 }
 
@@ -127,7 +124,6 @@ body {
     flex: 1;
     text-align: left;
     padding: 34.3px;
-    padding-right: ;
     padding-left: 1px;
     color: #2c534c;
     background: rgba(0, 0, 255, 0.002);
@@ -167,7 +163,7 @@ body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 45px;
     margin-bottom: 60px;
-    background-image: url(img/image\ copy\ 5.png);
+    background-image: url(img/image-copy\ 5.png);
     border-radius: 10px;
 }
 
@@ -180,6 +176,8 @@ body {
     background-color: #67becf46;
     padding: 40px;
     border-radius: 20px;
+    font-size: 24px;
+    font-weight: 500;
     flex: 1;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -191,19 +189,9 @@ body {
 .features-icon {
     padding: 10px;
     height: 200px;
-    weight: 200px margin-bottom: 20px;
+    width: 200px;
 }
 
-.features-card {
-    font-size: 24px;
-    font-weight: 500;
-}
-
-.features-card {
-    background-color: #67becf46;
-    border-radius: 20px;
-    flex: 1;
-}
 
 /* bagian tugas */
 .features-section2 {
@@ -216,7 +204,7 @@ body {
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 45px;
-    background-image: url(img/image\ copy\ 5.png);
+    background-image: url(img/image-copy\ 5.png);
 }
 
 .features-grid2 {
@@ -259,7 +247,7 @@ h4:hover {
 .features-icon2 {
     padding: 5px;
     height: 100px;
-    weight: 100px margin-bottom: 10px;
+    width: 100px 10px;
     margin-top: 10px
 }
 
@@ -284,11 +272,10 @@ h4:hover {
 .iframe-container {
     padding: 15px;
     border: 2px solid rgb(240, 7, 7);
-    background-image: url(img/image\ copy\ 7.png);
+    background-image: url(img/image-copy\ 7.png);
     border-radius: 10px;
 }
 
-/* bagian kontak */
 
 footer {
     background-color: black;

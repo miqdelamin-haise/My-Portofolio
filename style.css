@@ -1,15 +1,17 @@
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-    body {
-        font-family: "inter", sans-serif;
-        background-color: #c1bfbf50;
-        overflow-x: hidden;
-    }
+body {
+    font-family: "inter", sans-serif;
+    background-color: #c1bfbf50;
+    overflow-x: hidden;
+}
 
+/* bagian pembukaan */
 .pembukaan {
     background-image: url(img/image-copy\ 7.png);
     padding: 150px 20px;
@@ -18,7 +20,7 @@
 }
 
 .kata-1 {
-    font-size: clamp(36px, 8vw, 100px);
+    font-size: 100px;
 }
 
 .bg-blue {
@@ -26,7 +28,7 @@
     max-width: 200px;
     color: white;
     border-radius: 15px;
-    margin: 10px auto;
+    margin-left: 500px;
     margin-bottom: 10px;
 }
 
@@ -54,7 +56,6 @@
     margin: 0 auto;
     padding: 0 30px;
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
@@ -99,28 +100,26 @@
     transition: color 0.4s ease-in-out;
 }
 
-.closeBtn,
-.menuBtn {
+.closeBtn, .menuBtn{
     font-size: 28px;
     margin: 0px 20px;
     display: none;
 }
 
-@media only screen and (max-width: 780px) {
-    ul {
+@media only screen and (max-width: 780px){
+    ul{
         display: none;
     }
 
-    ul li {
+    ul li{
         display: block;
         margin: 20px;
     }
-
-    .menuBtn {
+    .menuBtn{
         display: block;
     }
 
-    #menu {
+    #menu{
         width: 100%;
         background: rgb(11, 46, 54);
         position: absolute;
@@ -134,19 +133,10 @@
     background-image: url(img/image-copy\ 7.png);
     margin: 140px;
     margin-top: 80px;
-    
     display: flex;
     align-items: center;
     box-shadow: 10px 10px 10px rgba(78, 78, 78, 0.523);
     gap: 50px;
-}
-
-@media (max-width: 768px) {
-    .kontainer2 {
-        flex-direction: column;
-        margin: 20px;
-        gap: 20px;
-    }
 }
 
 .hero-text h1 {
@@ -180,8 +170,7 @@
 }
 
 .kontainer2 img {
-    max-width: 100%;
-    height: auto;
+    padding: 20px;
     border-radius: 3px;
     border: 1px solid rgba(9, 47, 241, 0.395);
     background-color: rgba(132, 130, 130, 0.55);
@@ -212,14 +201,6 @@
     display: flex;
     gap: 25px;
 }
-
-@media (max-width: 768px) {
-  .features-grid,
-  .features-grid2 {
-    flex-direction: column;
-  }
-}
-
 
 .features-card {
     background-color: #67becf46;
@@ -257,7 +238,7 @@
 }
 
 .features-grid2 {
-    display: flex;
+    display: flex; 
     gap: 2px;
     background-color: #67becf46;
 }
@@ -370,66 +351,4 @@ footer p {
 
 .contact-list a:hover {
     color: rgb(12, 12, 253);
-}
-
-.iframe-container {
-  position: relative;
-  width: 100%;
-  padding-bottom: 56.25%; /* rasio 16:9 */
-  height: 0;
-  overflow: hidden;
-  border-radius: 10px;
-}
-
-.iframe-container iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border: 0;
-}
-
-
-@media (max-width: 768px) {
-
-  .kata-1 {
-    font-size: 42px;
-  }
-
-  .bg-blue {
-    margin: 10px auto;
-  }
-
-  .kontainer2 {
-    flex-direction: column;
-    margin: 20px;
-  }
-
-  .hero-text h1,
-  .hero-text h2,
-  .hero-text p {
-    margin-left: 0;
-    text-align: center;
-  }
-
-}
-
-.about {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 60px; /* jarak teks & gambar */
-  padding: 40px; /* jarak dari pinggir */
-}
-
-.about-text {
-  flex: 1;
-  max-width: 600px;
-}
-
-.about-img {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-}
+}   
